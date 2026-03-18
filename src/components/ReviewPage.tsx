@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { MapPin, Smartphone, Phone, Mail, Globe, MessageCircle } from 'lucide-react';
+import { MapPin, Smartphone, Phone, Mail, Globe, MessageCircle, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { StarRating } from './StarRating';
 import { CopyButton } from './CopyButton';
@@ -65,6 +65,18 @@ export const ReviewPage = () => {
           >
             <MessageCircle className="w-5 h-5 flex-shrink-0" />
             <span>Chame no WhatsApp</span>
+          </a>
+
+          {/* Download Cartão */}
+          <a
+            href="/CartaoV1.pdf"
+            download="CartaoV1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full h-14 bg-white text-black hover:bg-gray-50 border border-gray-200 text-base md:text-lg font-semibold px-4 rounded-xl shadow-sm transform hover:scale-[1.02] transition-all duration-300 animate-fade-in animation-delay-300"
+          >
+            <Download className="w-5 h-5 flex-shrink-0" />
+            <span>Baixar Cartão (PDF)</span>
           </a>
 
           {/* Celular */}
