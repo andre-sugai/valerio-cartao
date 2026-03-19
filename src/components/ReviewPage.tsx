@@ -133,13 +133,13 @@ export const ReviewPage = () => {
         <Card className="mb-8 shadow-md animate-fade-in animation-delay-500">
           <CardContent className="p-6 text-center">
             <h2 className="text-lg font-semibold text-text-primary mb-4">
-              QR Code para Avaliação
+              QR Code para acessar Cartão Digital
             </h2>
 
             <div className="mb-4">
               <img
                 src={qrCodePlaceholder}
-                alt="QR Code para avaliar Orbee360 no Google Maps"
+                alt="QR Code para acessar Cartão Digital"
                 className="w-48 h-48 mx-auto rounded-lg shadow-sm bg-surface"
               />
             </div>
@@ -151,10 +151,7 @@ export const ReviewPage = () => {
               </div>
               <p>1. Aponte a câmera do seu celular para o QR Code</p>
               <p>2. Toque na notificação que aparecer</p>
-              <p>3. Será direcionado para nosso perfil no Google Maps</p>
-              <p>
-                4. Clique em "Avaliar" e deixe suas 5 estrelas para a Orbee360!
-              </p>
+              <p>3. Será direcionado para nosso cartão digital</p>
             </div>
           </CardContent>
         </Card>
